@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R mocha-multi --reporter-options spec=-,json=.results.json"
   },
   "author": "",
-  "license": "ISC",
+  "license": "ISC"
   
   
 }
